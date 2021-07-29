@@ -1,0 +1,27 @@
+*{
+    font-family: monospace;
+}
+
+.body{
+    background-image: url('image/love3.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.card{
+    /* width: 40% !important; */
+    background-color: #5c001485;
+    margin-top: 10vh !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card{
+      width: 100% !important;
+      
+  }
+  h2{
+      font-size: 30px;
+  }
+  }
